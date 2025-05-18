@@ -38,7 +38,7 @@ async def analizar(request: DomainRequest):
     email_generado = generar_email_comercial(contenido)
 
     # Por último enviaremos un email al cliente
-    enviado = enviar_email(contenido, cliente_email)
+    enviado = enviar_email(email_generado, cliente_email)
 
     return {
         "status": "✓ Análisis completado y email enviado.",
