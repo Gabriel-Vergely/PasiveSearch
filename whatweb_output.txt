@@ -1,0 +1,9 @@
+🔍 Análisis de tecnologías con WhatWeb para: https://<class 'main.DomainRequest'>
+
+▶ Salida de WhatWeb:
+
+
+⚠️ Errores:
+[1m[31mUnable to parse invalid target : Invalid character in host: '<class 'main.DomainRequest'>'[0m
+[1m[31mNo targets selected[0m
+
